@@ -8,9 +8,9 @@ namespace SSuwalaBonjourLeMonde.Controllers
 {
     public class GetController : Controller
     {
-        public String Index()
+        public String Index(String name = "Sebastian")
         {
-            return "Hello, it's me, GetController!";
+            return $"{name}, Hello, it's me, GetController!";
         }
     }
 }
