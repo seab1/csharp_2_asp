@@ -10,7 +10,7 @@ namespace SSuwalaBonjourLeMonde.Controllers
     {
         public String Index(String name = "Sebastian")
         {
-            return $"{name}, Hello, it's me, GetController!";
+            return System.Web.HttpUtility.HtmlEncode($"{name}, Hello, it is me, GetController!");
         }
     }
 }
