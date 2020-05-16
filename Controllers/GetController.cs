@@ -10,6 +10,7 @@ namespace SSuwalaBonjourLeMonde.Controllers
     {
         public IActionResult Index(String name = "Sebastian")
         {
+            ViewData["name"] = name;
             return View();
         }
     }
