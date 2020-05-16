@@ -109,3 +109,4 @@ C:\Users\Acer\Desktop\csharp_2_asp\SSuwalaBonjourLeMonde\bin\Release\netcoreapp3
 C:\Users\Acer\Desktop\csharp_2_asp\SSuwalaBonjourLeMonde\obj\Release\netcoreapp3.1\SSuwalaBonjourLeMonde.csproj.CoreCompileInputs.cache
 C:\Users\Acer\Desktop\csharp_2_asp\SSuwalaBonjourLeMonde\obj\Release\netcoreapp3.1\SSuwalaBonjourLeMonde.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Acer\Desktop\csharp_2_asp\SSuwalaBonjourLeMonde\obj\Release\netcoreapp3.1\Razor\Views\Home\Bonjour.cshtml.g.cs
+C:\Users\Acer\Desktop\csharp_2_asp\SSuwalaBonjourLeMonde\obj\Release\netcoreapp3.1\Razor\Views\Get\Index.cshtml.g.cs

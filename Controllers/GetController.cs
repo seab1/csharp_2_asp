@@ -8,9 +8,9 @@ namespace SSuwalaBonjourLeMonde.Controllers
 {
     public class GetController : Controller
     {
-        public String Index(String name = "Sebastian")
+        public IActionResult Index(String name = "Sebastian")
         {
-            return System.Web.HttpUtility.HtmlEncode($"{name}, Hello, it is me, GetController!");
+            return View();
         }
     }
 }
