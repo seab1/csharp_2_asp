@@ -20,9 +20,17 @@ namespace SSuwalaBonjourLeMonde.Controllers
         }
 
         // GET: Animals
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(String id)
         {
-            return View(await _context.Animal.ToListAsync());
+            var animals = from a in _context.Animal
+                          select a;
+
+            if(!String.IsNullOrEmpty(id))
+            {
+                animals = animals.Where(a => a.Name.Contains(id));
+            }    
+
+            return View(await animals.ToListAsync());
         }
 
         // GET: Animals/Details/5
