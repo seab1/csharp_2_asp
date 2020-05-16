@@ -5,7 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Animals:</h1>
+<form asp-controller="Animals" asp-action="Index">
+    <p>
+        Name: <input type="text" name="id" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 
 <p>
     <a class="btn btn-sm btn-primary" asp-action="Create">Create New</a>
