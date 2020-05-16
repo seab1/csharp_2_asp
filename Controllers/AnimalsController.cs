@@ -157,5 +157,11 @@ namespace SSuwalaBonjourLeMonde.Controllers
         {
             return _context.Animal.Any(e => e.ID == id);
         }
+
+        [HttpPost]
+        public string Index(string id, bool? http)
+        {
+            return id;
+        }
     }
 }
